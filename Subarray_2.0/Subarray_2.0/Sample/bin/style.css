@@ -1,0 +1,47 @@
+/* Apply styles to the entire scene */
+.root {
+    -fx-background-color: #f4f4f4;
+     /* Set a background color */
+     background-color: #f4f4f4;
+}
+
+/* Style the top section containing input and buttons */
+/*HBox {
+    -fx-alignment: center;
+    alignment: center;
+}*/
+
+/* Style the TextArea for input */
+.arrayInput{
+    -fx-font-size: 16px;
+    /** Increase font size for better readability */
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #3498db; /* Blue border */
+    font-size: 16px;
+    background-color: #11e2f1;
+    border-color: #ee8e19;
+}
+
+/* Style the buttons */
+.styled-button {
+    -fx-background-color: #3498db; /* Blue background */
+    background-color: #3498db;
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    font-size: 16px;
+}
+
+.styled-button:hover {
+    -fx-background-color: #2980b9; /* Darker blue on hover */
+    background-color: #cb13ec;
+}
+
+/* Style the output TextArea */
+.text-area-output {
+    -fx-font-size: 16px; /* Increase font size for better readability */
+    font-size: 16px;
+    -fx-background-color: #ffffff; /* White background */
+    background-color: #ffffff;
+    -fx-border-color: #3498db; /* Blue border */
+    border-color: #3498db;
+}
